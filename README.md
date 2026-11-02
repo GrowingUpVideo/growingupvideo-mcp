@@ -13,6 +13,7 @@ It lets an AI assistant explain the product, give photo tips, and hand the user 
 | Auth | None |
 
 Claude: Settings → Connectors → Add custom connector → paste the URL.
+Cursor: install the plugin from the Cursor Marketplace, or add the server to `~/.cursor/mcp.json` (same content as `mcp.json` in this repo).
 Other clients: add it as a remote (streamable HTTP) MCP server.
 
 ## Tools
@@ -32,6 +33,7 @@ This is the source of the hosted server, which runs inside the growingupvideo.co
 - `server/utils/mcp.ts`: server, tools, and texts
 - `server/routes/mcp/`: the two endpoints (`/mcp` for general clients, `/mcp/muse` for Meta Muse)
 - `shared/pricing.ts`: prices, shared with the website
+- `.cursor-plugin/plugin.json` + `mcp.json`: the Cursor plugin (points at the hosted server)
 - `server.json`: the [MCP Registry](https://registry.modelcontextprotocol.io) entry (`com.growingupvideo/growingupvideo`)
 
 ## Links

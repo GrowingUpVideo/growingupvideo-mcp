@@ -1,0 +1,11 @@
+{
+  "name": "growingupvideo",
+  "version": "1.0.0",
+  "description": "Turn photos of a person, couple, or pet across the years into an AI growing-up morph video. Explains the product and prices, gives photo tips, and returns the link where the user makes the video.",
+  "author": { "name": "GrowingUpVideo", "email": "info@growingupvideo.com" },
+  "homepage": "https://growingupvideo.com",
+  "repository": "https://github.com/GrowingUpVideo/growingupvideo-mcp",
+  "license": "MIT",
+  "keywords": ["video", "photos", "ai-video", "birthday", "graduation", "wedding"],
+  "logo": "assets/logo.png"
+}
